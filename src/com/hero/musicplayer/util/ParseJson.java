@@ -9,7 +9,7 @@ import com.hero.musicplayer.entity.MusicData;
 public class ParseJson {
 	private Gson gson = new Gson();
 
-	public MusicData parseMusicJson(String json){
+	public MusicData parseMusicJson(String json) {
 		return gson.fromJson(json, MusicData.class);
 	}
 }

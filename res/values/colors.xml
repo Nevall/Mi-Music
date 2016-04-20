@@ -34,5 +34,6 @@
     <color name="music_item_artist_defaule_color">#888888</color>
     <color name="media_item_icon_playing">#ffff5722</color>
     <color name="media_item_icon_not_playing">#ccc</color>
+    <color name="notification_background">#004D40</color>
 
 </resources>

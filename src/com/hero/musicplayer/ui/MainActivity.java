@@ -179,7 +179,6 @@ public class MainActivity extends AppCompatActivity implements Consts{
 			} catch (Exception e) {
 				e.printStackTrace();
 			}
-
 		}
 	}
 

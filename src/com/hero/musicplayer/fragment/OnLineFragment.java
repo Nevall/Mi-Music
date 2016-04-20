@@ -8,7 +8,6 @@ import android.os.Handler;
 import android.os.Handler.Callback;
 import android.os.Message;
 import android.support.v4.content.LocalBroadcastManager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,8 +28,6 @@ public class OnLineFragment extends BaseFragment implements Consts,OnItemClickLi
 	private OnlineFragmentBiz biz;
 	private ListView listView;
 	private OnlineMusicAdapter adapter;
-	private MyMusicApplication app;
-	private List<Music> data;
 
 	private Handler handler = new Handler(new Callback() {
 
@@ -80,7 +77,6 @@ public class OnLineFragment extends BaseFragment implements Consts,OnItemClickLi
 		//初始化控件
 		listView = (ListView)view.findViewById(R.id.lv_online_music_list);
 		//获取app及对应的数据源
-		app = (MyMusicApplication) mActivity.getApplication();
 		adapter = new OnlineMusicAdapter(mActivity, null);
 		listView.setAdapter(adapter);
 	}

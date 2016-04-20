@@ -11,23 +11,23 @@ public interface Consts {
 	/**
 	 * 播放/暂停
 	 */
-	String INTENT_ACTION_ACT_PLAY_OR_PAUSE = "com.hero.intent.action.ACTIVITY_PLAY_OR_PAUSE";
+	String INTENT_ACTION_ACT_PLAY_OR_PAUSE = "COM.HERO.INTENT.ACTION.ACTIVITY_PLAY_OR_PAUSE";
 	/**
 	 * 播放上一首
 	 */
-	String INTENT_ACTION_ACT_PREVIOUS = "com.hero.intent.action.ACTIVITY_PREVIOUS";
+	String INTENT_ACTION_ACT_PREVIOUS = "COM.HERO.INTENT.ACTION.ACTIVITY_PREVIOUS";
 	/**
 	 * 播放下一首
 	 */
-	String INTENT_ACTION_ACT_NEXT = "com.hero.intent.action.ACTIVITY_NEXT";
+	String INTENT_ACTION_ACT_NEXT = "COM.HERO.INTENT.ACTION.ACTIVITY_NEXT";
 	/**
 	 * 播放新的歌曲
 	 */
-	String INTENT_ACTION_ACT_PLAY_NEW = "com.hero.intent.action.ACTIVITY_PLAY_NEW";
+	String INTENT_ACTION_ACT_PLAY_NEW = "COM.HERO.INTENT.ACTION.ACTIVITY_PLAY_NEW";
 	/**
 	 * 快进
 	 */
-	String INTENT_ACTION_ACT_SEEK = "com.hero.intent.action.ACTIVITY_SEEK";
+	String INTENT_ACTION_ACT_SEEK = "COM.HERO.INTENT.ACTION.ACTIVITY_SEEK";
 	
 	//---------以下是由Activity发出的广播---------
 	/**
@@ -57,15 +57,18 @@ public interface Consts {
 	/**
 	 * 当前Fragment为LocationFragment 
 	 */
-	public static final String CURRENT_FRAGMRNT_IS_ONLINE_FRAGMRNT = "current_fragmrnt_is_online_fragmrnt";
+	public static final String CURRENT_FRAGMRNT_IS_ONLINE_FRAGMRNT = "CURRENT_FRAGMRNT_IS_ONLINE_FRAGMRNT";
 	/**
 	 * 当前Fragment为LocationFragment 
 	 */
-	public static final String CURRENT_FRAGMRNT_IS_LOCATION_FRAGMRNT = "current_fragmrnt_is_location_fragmrnt";
+	public static final String CURRENT_FRAGMRNT_IS_LOCATION_FRAGMRNT = "CURRENT_FRAGMRNT_IS_LOCATION_FRAGMRNT";
 	
 	/**
 	 * 更新后台服务的List<Song> 数据源 
 	 */
-	public static final String UPDATE_THE_DATA_OF_SONGS = "update_the_data_of_songs";
-	
+	public static final String UPDATE_THE_DATA_OF_SONGS = "UPDATE_THE_DATA_OF_SONGS";
+	/**
+	 * 清除通知栏
+	 */
+	String INTENT_ACTION_ACT_CLEAR_NOTIFICATION = "COM.HERO.INTENT.ACTION.ACTIVITY_CLEAR_NOTIFICATION";
 }

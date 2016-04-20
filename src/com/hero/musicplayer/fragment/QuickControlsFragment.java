@@ -90,7 +90,6 @@ OnClickListener,OnSeekBarChangeListener,Consts{
 		filter.addAction(UPDATE_THE_DATA_OF_SONGS);
 		//注册广播接收者
 		LocalBroadcastManager.getInstance(mActivity).registerReceiver(receiver,filter);
-
 	}
 
 	@Override
@@ -383,6 +382,4 @@ OnClickListener,OnSeekBarChangeListener,Consts{
 			}
 		}
 	}
-
-
 }

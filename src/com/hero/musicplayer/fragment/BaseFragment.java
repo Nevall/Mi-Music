@@ -13,12 +13,12 @@ import android.view.ViewGroup;
 /**
  * Created by Android on 2016/3/5.
  */
-public abstract class BaseFragment extends Fragment{
+public abstract class BaseFragment extends Fragment {
 	protected Activity mActivity;
-	
 
 	@Override
-	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container,
+			Bundle savedInstanceState) {
 		return initView(inflater, container, savedInstanceState);
 	}
 
@@ -28,7 +28,6 @@ public abstract class BaseFragment extends Fragment{
 		initData();
 		super.onCreate(savedInstanceState);
 	}
-
 
 	/**
 	 * 加载数据
@@ -45,10 +44,12 @@ public abstract class BaseFragment extends Fragment{
 
 	/**
 	 * 加载布局文件
+	 * 
 	 * @param inflater
 	 * @param container
 	 * @param savedInstanceState
 	 * @return
 	 */
-	protected abstract View initView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState);
+	protected abstract View initView(LayoutInflater inflater,
+			ViewGroup container, Bundle savedInstanceState);
 }
